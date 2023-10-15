@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    
+    <script type="application/ld+json">
+
+{  
+  "@context":"http://schema.org",
+  "@type":"Website",
+  "@id":"https:\/\/hqp1203.github.io\/",
+  "author": {
+    "@type": "Person",
+    "name": "Qinpei Huang",
+    
+    "image": "https://cn.gravatar.com/avatar/872968dca6f8051e684e90f8bb15399c"
+    
+  },
+  "name":"hqp1203のBlog",
+  "description":"",
+  "url":"https:\/\/hqp1203.github.io\/post\/%E9%A2%98%E7%9B%AE%E6%80%BB%E7%BB%93\/",
+  "keywords":"[tech, development, next-gen]"
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.118.2 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="Qinpei Huang">
+<meta name="keywords" content="tech, development, next-gen">
+<meta name="description" content="">
+
+
+<meta property="og:description" content="">
+<meta property="og:type" content="article">
+<meta property="og:title" content="题目总结">
+<meta name="twitter:title" content="题目总结">
+<meta property="og:url" content="https://hqp1203.github.io/post/%E9%A2%98%E7%9B%AE%E6%80%BB%E7%BB%93/">
+<meta property="twitter:url" content="https://hqp1203.github.io/post/%E9%A2%98%E7%9B%AE%E6%80%BB%E7%BB%93/">
+<meta property="og:site_name" content="hqp1203のBlog">
+<meta property="og:description" content="">
+<meta name="twitter:description" content="">
+<meta property="og:locale" content="zh-cn">
+
+  
+    <meta property="article:published_time" content="2023-09-23T15:48:07">
+  
+  
+    <meta property="article:modified_time" content="2023-09-23T15:48:07">
+  
+  
+  
+    
+      <meta property="article:section" content="category">
+    
+      <meta property="article:section" content="subcategory">
+    
+  
+  
+    
+      <meta property="article:tag" content="tag1">
+    
+      <meta property="article:tag" content="tag2">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://cn.gravatar.com/avatar/872968dca6f8051e684e90f8bb15399c?s=640">
+  <meta property="twitter:image" content="https://cn.gravatar.com/avatar/872968dca6f8051e684e90f8bb15399c?s=640">
+
+
+
+
+
+
+    <title>题目总结</title>
+
+    <link rel="icon" href="https://hqp1203.github.io/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://hqp1203.github.io/post/%E9%A2%98%E7%9B%AE%E6%80%BB%E7%BB%93/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.css" integrity="sha512-MLcK/YRapzET1qTBXrOiZE6bGBgtATMo2bIyalVJ8EKDEGNoeA3SPQkvWAR0zNS650YG13ocXBMeioDuZcSRuQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="https://hqp1203.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+      
+        <link rel="stylesheet"  href="https://hqp1203.github.io/css/mystyle.css">
+      
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="1">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/" aria-label="去首页">hqp1203のBlog</a>
+  </div>
+  
+    
+      <a class="header-right-icon open-algolia-search"
+         href="/#search" aria-label="打开链接: /#search">
+    
+    
+      <i class="fa fa-lg fa-search"></i>
+    
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="1">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="/#about" aria-label="阅读有关作者的更多信息">
+          <img class="sidebar-profile-picture" src="https://cn.gravatar.com/avatar/872968dca6f8051e684e90f8bb15399c?s=110" alt="作者的图片" />
+        </a>
+        <h4 class="sidebar-profile-name">Qinpei Huang</h4>
+        
+          <h5 class="sidebar-profile-bio">一个破破烂烂的博客</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">首页</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">分类</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">标签</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/post" title="博客">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">博客</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/#about" title="About">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">关于</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://stackoverflow.com/users/21834930/hqp1203" target="_blank" rel="noopener" title="Stack Overflow">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-stack-overflow" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Stack Overflow</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/hqp1203" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="1"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      题目总结
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2023-09-23T15:48:07&#43;08:00">
+        
+  
+  
+  
+  
+    2023/九月/23 15:03
+  
+
+      </time>
+    
+    
+  
+  
+    <span>发布在</span>
+    
+      <a class="category-link" href="/categories/category">category</a>, 
+    
+      <a class="category-link" href="/categories/subcategory">subcategory</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <h2 id="题目总结">题目总结</h2>
+<p>实习经历</p>
+<p>1、为什么选择了Beego和Gorm作为项目的基础框架？
+提供了强大的MVC结构，可以快速搭建起项目的基础架构（conf、controller、model、routers）。Gorm的强大查询功能也使得数据库操作更加高效和便捷。</p>
+<p>2、接口文档示例
+采用在线接口文档show doc，用来查看和编写测试接口</p>
+<p>3、你提到了编写了详细的接口文档，能否分享一些你编写的接口文档的例子？
+编写接口的大类别、具体接口功能、描述、请求方式、请求参数、返回示例、返回参数说明</p>
+<p>4、在设计接口时，你考虑了哪些方面，比如参数校验、错误处理等？
+a、参数校验
+b、错误处理
+c、身份认证与授权
+d、返回结果的格式
+e、接口文档
+f、版本控制</p>
+<p>5、你提到了调用了公司现有的错题知识点接口和题目生成接口，这两个接口是如何被调用的？
+公司将标准库中的http.Get()和http.Post()方法封装在自己编写的curl包中，方便调用。</p>
+<p>6、如何处理接口返回的数据，以及如何将题目组装成一套试卷？
+通过解析接口返回的JSON数据，我们可以将题目按照知识点分类并组装成一套试卷。</p>
+<p>7、你是如何进行单元测试和集成测试的？是否有使用任何测试框架？
+本地运行起来beego项目，使用postman进行接口的测试</p>
+<p>8、代码冲突解决
+git merge</p>
+<p>9、项目中是否考虑到了未来的扩展需求？有没有采用一些设计模式或者架构思想来保证项目的可扩展性和维护性？
+我们会考虑采用MVC模式，以及使用设计模式如工厂模式等来保证项目的可扩展性。同时，我们会注重代码的模块化和清晰性，以便后续维护和扩展。</p>
+<p>1、 你能解释一下 Gin 框架在你的项目中如何简化了 RESTful API 的开发过程吗？</p>
+<p>答案：Gin框架是一个基于Go语言的Web框架，它提供了快速、高效的路由、中间件和错误处理等功能，使得开发者可以更轻松地构建RESTful API。Gin的设计理念是简单和高性能，通过简洁的API设计以及快速的路由处理，可以有效地减少代码量和开发时间，同时保证了高并发的性能表现。</p>
+<p>2、你是如何利用 JWT 实现了安全的用户认证和授权机制的？你可以详细描述一下这个过程吗？</p>
+<p>答案：我们使用JWT（JSON Web Token）实现了用户认证和授权。当用户成功登录后，服务器会生成一个包含用户信息的JWT，并将其返回给客户端。客户端在后续的请求中会将该JWT包含在请求头中。服务器会通过JWT中的信息进行用户认证，验证用户的身份。同时，JWT中还包含了用户的权限信息，通过解析JWT，服务器可以授权用户访问相应的资源。</p>
+<p>3、在你的应用程序中，使用 Gorilla WebSocket 实现了实时聊天功能，你是如何确保多个用户能够即时通信的？</p>
+<p>答案：Gorilla WebSocket库提供了WebSocket协议的实现，使得服务器和客户端可以建立持久的双向通信连接。我们在服务器端使用Gorilla WebSocket来管理连接和消息的处理，通过在每个连接上维护一个用户标识符，可以确保消息被正确地发送到目标用户。这样，多个用户可以在实时聊天室中建立连接，并通过WebSocket进行即时通信。</p>
+<p>4、GORM 是如何被集成以管理数据库模型和查询操作的？你如何确保数据的一致性和持久性？</p>
+<p>答案：GORM是一个Go语言的ORM库，它简化了数据库模型的定义和查询操作。我们通过定义Go结构体来映射数据库表，利用GORM提供的API进行数据库操作，如查询、更新、插入等。同时，GORM提供了事务机制，可以确保一系列的操作要么全部成功，要么全部失败，保证了数据的一致性和持久性。</p>
+<p>5、你使用 Redis 实现了订阅与发布机制来进行用户消息广播，能否介绍一下这个机制，并讲讲它如何提升了消息传递的实时性和可靠性？</p>
+<p>答案：我们使用Redis的订阅与发布机制来实现用户消息的广播。当用户发送消息时，服务器将消息发布到特定的频道，所有订阅了该频道的用户将会收到消息。这种机制可以实现实时的消息传递，因为消息会立即发送给所有订阅者。同时，Redis的持久化特性确保了即使在服务器重启后，之前的消息记录依然可用，提升了消息传递的可靠性。</p>
+<p>6、你使用了 Bcrypt 对用户密码进行加密以提升用户数据的安全级别，请问 Bcrypt 是如何工作的？</p>
+<p>答案：Bcrypt是一个密码哈希函数，它采用单向哈希算法将用户密码转化为固定长度的哈希值。这个过程是不可逆的，即无法从哈希值还原出原始密码。Bcrypt还采用了“盐”(salt)的机制，每次对相同的密码进行哈希时，都会使用不同的盐值，从而使得相同的密码哈希后得到不同的结果，增加了破解的难度。</p>
+<p>7、你是如何利用 MySQL 对用户信息、聊天记录等关键数据进行持久化存储的？你是如何保证数据的长期可用性和可追溯性的？</p>
+<p>答案：我们使用MySQL作为数据库来持久化存储用户信息和聊天记录等关键数据。通过定义相应的表结构，我们将数据存储到MySQL数据库中。同时，我们采用了备份和容灾等措施来保证数据的长期可用性，确保即使在意外情况下也能够恢复数据。另外，我们使用了适当的索引和优化策略来提升查询效率，保证了系统的性能。</p>
+<p>8、MongoDB 的 GridFS 存储机制是如何被应用来存储用户上传的多媒体文件的？你还在服务端实现了文件的压缩，可以分享一下实现的细节吗？</p>
+<p>答案：我们使用MongoDB的GridFS存储机制来存储用户上传的多媒体文件，GridFS允许我们以分片的方式存储大型文件，并且能够很好地处理大量的小文件。在服务端，我们通过GridFS提供的API来实现文件的上传、下载和删除等操作。另外，我们也在服务端实现了文件的压缩，采用一些压缩算法对文件进行处理，减少了存储空间和传输带宽的消耗。这样可以提升系统的效率和性能。</p>
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">标签</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="/tags/tag1/">tag1</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/tag2/">tag2</a>
+
+                  </div>
+                
+              
+            
+            
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" data-tooltip="设计模式" aria-label="上一篇: 设计模式">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="分享这个帖子">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://hqp1203.github.io/post/%E9%A2%98%E7%9B%AE%E6%80%BB%E7%BB%93/" title="分享到 Facebook" aria-label="分享到 Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://hqp1203.github.io/post/%E9%A2%98%E7%9B%AE%E6%80%BB%E7%BB%93/" title="分享到 Twitter" aria-label="分享到 Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://hqp1203.github.io/post/%E9%A2%98%E7%9B%AE%E6%80%BB%E7%BB%93/" title="分享到 Google&#43;" aria-label="分享到 Google&#43;">
+          <i class="fab fa-google-plus" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#gitalk" aria-label="发表评论">
+        <i class="fa fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="回到顶部">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+            
+  
+    <div id="gitalk">
+      <noscript>Please enable JavaScript to view the comments powered by Gitalk.</noscript>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.min.js" integrity="sha512-EcTCcXV46teiNwe0VcnM5A038tcY+BaQYO4nW6Gh2i7v4/HjBVg7xx3+JBLl9WofDds//INJAiEGAtdgr8PWyA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+      (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+          document.getElementById('gitalk').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+          return;
+        }
+        new Gitalk({
+          clientID: 'f4f67b3e56cb58bac59d',
+          clientSecret: 'c3cf576fa67525b248108e18e368c9492c10ed4c',
+          repo: 'hqp1203.github.io',
+          owner: 'hqp1203',
+          admin: ['hqp1203'],
+          id: '570b430c98e0b99d82498d339528f5bf',
+          ...{"distractionfreemode":false,"enablehotkey":true,"language":"zh-CN","pagerdirection":"first","perpage":10}
+        }).render('gitalk')
+      })()
+    </script>
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2023 Qinpei Huang. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+        
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" data-tooltip="设计模式" aria-label="上一篇: 设计模式">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="分享这个帖子">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://hqp1203.github.io/post/%E9%A2%98%E7%9B%AE%E6%80%BB%E7%BB%93/" title="分享到 Facebook" aria-label="分享到 Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://hqp1203.github.io/post/%E9%A2%98%E7%9B%AE%E6%80%BB%E7%BB%93/" title="分享到 Twitter" aria-label="分享到 Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://hqp1203.github.io/post/%E9%A2%98%E7%9B%AE%E6%80%BB%E7%BB%93/" title="分享到 Google&#43;" aria-label="分享到 Google&#43;">
+          <i class="fab fa-google-plus" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#gitalk" aria-label="发表评论">
+        <i class="fa fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="回到顶部">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+      </div>
+      
+<div id="share-options-bar" class="share-options-bar" data-behavior="1">
+  <i id="btn-close-shareoptions" class="fa fa-times"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhqp1203.github.io%2Fpost%2F%25E9%25A2%2598%25E7%259B%25AE%25E6%2580%25BB%25E7%25BB%2593%2F" aria-label="分享到 Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i><span>分享到 Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fhqp1203.github.io%2Fpost%2F%25E9%25A2%2598%25E7%259B%25AE%25E6%2580%25BB%25E7%25BB%2593%2F" aria-label="分享到 Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i><span>分享到 Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fhqp1203.github.io%2Fpost%2F%25E9%25A2%2598%25E7%259B%25AE%25E6%2580%25BB%25E7%25BB%2593%2F" aria-label="分享到 Google&#43;">
+          <i class="fab fa-google-plus" aria-hidden="true"></i><span>分享到 Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://cn.gravatar.com/avatar/872968dca6f8051e684e90f8bb15399c" alt="作者的图片" />
+    
+    <h4 id="about-card-name">Qinpei Huang</h4>
+    
+      <div id="about-card-bio">一个破破烂烂的博客</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        在校无业大学生
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker-alt"></i>
+        <br/>
+        China
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://hqp1203.github.io/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://hqp1203.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha256-LVuWfOU0rWFMCJNl1xb3K2HSWfxtK4IPbqEerP1P83M=" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/go.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha256-putofyQv7OB569xAldpyBnHJ0Uc+7VGp5Us05IgDGss=" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/dockerfile.min.js"></script>
+  
+
+  
+    <script src="https://hqp1203.github.io/js/myscript.js"></script>
+  
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+
+
+    
+  </body>
+</html>
+

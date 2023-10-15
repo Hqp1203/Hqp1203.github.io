@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on hqp1203のBlog</title>
+    <link>https://hqp1203.github.io/categories/</link>
+    <description>Recent content in Categories on hqp1203のBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 23 Sep 2023 15:48:07 +0800</lastBuildDate><atom:link href="https://hqp1203.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>category</title>
+      <link>https://hqp1203.github.io/categories/category/</link>
+      <pubDate>Sat, 23 Sep 2023 15:48:07 +0800</pubDate>
+      
+      <guid>https://hqp1203.github.io/categories/category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subcategory</title>
+      <link>https://hqp1203.github.io/categories/subcategory/</link>
+      <pubDate>Sat, 23 Sep 2023 15:48:07 +0800</pubDate>
+      
+      <guid>https://hqp1203.github.io/categories/subcategory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IT</title>
+      <link>https://hqp1203.github.io/categories/it/</link>
+      <pubDate>Wed, 20 Sep 2023 17:07:01 +0800</pubDate>
+      
+      <guid>https://hqp1203.github.io/categories/it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>language</title>
+      <link>https://hqp1203.github.io/categories/language/</link>
+      <pubDate>Sun, 10 Sep 2023 15:45:36 +0800</pubDate>
+      
+      <guid>https://hqp1203.github.io/categories/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DB</title>
+      <link>https://hqp1203.github.io/categories/db/</link>
+      <pubDate>Sat, 13 May 2023 18:11:06 +0800</pubDate>
+      
+      <guid>https://hqp1203.github.io/categories/db/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BigData</title>
+      <link>https://hqp1203.github.io/categories/bigdata/</link>
+      <pubDate>Mon, 08 May 2023 15:37:19 +0800</pubDate>
+      
+      <guid>https://hqp1203.github.io/categories/bigdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://hqp1203.github.io/categories/devops/</link>
+      <pubDate>Mon, 08 May 2023 15:31:47 +0800</pubDate>
+      
+      <guid>https://hqp1203.github.io/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>大数据处理</title>
+      <link>https://hqp1203.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/</link>
+      <pubDate>Mon, 08 May 2023 14:34:01 +0800</pubDate>
+      
+      <guid>https://hqp1203.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
